@@ -1,0 +1,30 @@
+#categories {
+	max-width: 740px;
+	width: 100%;
+	padding-left: 12px;
+}
+
+#categories label {
+	margin-left: 12px;
+}
+
+#categories ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#categories li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	height: 160px;
+	margin-bottom: 12px;
+	margin-left: 12px;
+}
+
+#categories li > img {
+	position: relative;
+	top: -10px;
+}

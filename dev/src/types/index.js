@@ -1,0 +1,1 @@
+export { addTypesList } from "./addTypesList";
